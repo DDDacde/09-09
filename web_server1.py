@@ -30,7 +30,7 @@ while True:
     # 第一个返回值是客户端的 socket 对象
     # 第二个返回值是客户端的地址
     cli_sock, cli_addr = sock.accept()
-    print('接收到来自客户端 %s:%s 的连接' % cli_addr)
+    print('接收到连接')
 
     # 接收客户端传来的数据，1024是接收缓冲区的大小
     cli_data = cli_sock.recv(1024)
@@ -40,4 +40,4 @@ while True:
 
     # 断开与客户端的连接
     cli_sock.close()
-    print('连接断开, 退出！')
+    print('连不上了额，快走吧')
