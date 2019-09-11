@@ -10,17 +10,17 @@ define("port", default=8000, help="主机端口", type=int)
 
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
-        self.write("Hello, world")
+        self.write("哈哈哈哈哈哈哈")
 
 
 class AifeiHandler(tornado.web.RequestHandler):
     def get(self):
-        self.write("爱妃退下，朕在调戏代码")
+        self.write("不想敲代码")
 
 
 class JiangPangpangHandler(tornado.web.RequestHandler):
     def get(self):
-        self.write("姜伟老师没醉过，但求一醉")
+        self.write("我想躺着就把钱赚了")
 
 
 class TestGetHandler(tornado.web.RequestHandler):
