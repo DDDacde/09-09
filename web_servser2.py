@@ -68,9 +68,9 @@ while True:
 
     # 根据 URL 生成不同的返回值
     if url == '/foo':
-        response = template % '爱妃退下，朕在调戏代码'
+        response = template % '与bug抗争到底'
     elif url == '/bar':
-        response = template % '姜伟老师没醉过，但求一醉'
+        response = template % '白酒一斤半，啤酒随便灌'
     else:
         response = template % 'hello world'
 
